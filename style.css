@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fceff9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #ff80ab;
+}
+
+.form {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#taskInput {
+  flex: 1;
+  padding: 5px;
+  font-size: 16px;
+}
+
+#addButton {
+  padding: 5px 10px;
+  background-color: #ff80ab;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#addButton:hover {
+  background-color: #ff4081;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+li:hover {
+  background-color: #fce4ec;
+}
+
+.deleteButton,
+.updateButton {
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  padding: 3px 6px;
+  margin-left: 10px;
+  cursor: pointer;
+}
